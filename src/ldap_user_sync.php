@@ -2,12 +2,12 @@
 
 /**
  * Class LdapUserSync
- * Handles LDAP User Import into Joomla
+ * Handles LDAP User Import
  */
 class LdapUserSync
 {
     /**
-     * Import LDAP Users into Joomla
+     * Import LDAP Users
      * 
      * @return array
      */
@@ -61,7 +61,7 @@ class LdapUserSync
             return $this->generateResponse(false, 'NO_USERS_FOUND');
         }
 
-        // Import LDAP users into Joomla
+        // Import LDAP users
         $importResult = $this->importUsersIntoJoomla($ldapEntries);
 
         ldap_unbind($ldapConn);
@@ -136,7 +136,7 @@ class LdapUserSync
     }
 
     /**
-     * Import LDAP users into Joomla
+     * Import LDAP users
      * 
      * @param array $ldapEntries
      * @return array
