@@ -43,5 +43,5 @@ It offers a **secure, efficient, and scalable** solution for centralized identit
 ### **2. Installation Steps**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   git clone https://github.com/s-harsh/LDAP-Server-Import-User.git
 
